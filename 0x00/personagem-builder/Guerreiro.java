@@ -1,5 +1,3 @@
-package builder;
-
 public class Guerreiro extends Personagem {
 
     public Guerreiro(String nome, int inteligencia, int forca, int vigor, int resistencia, int destreza) {

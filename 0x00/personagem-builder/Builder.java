@@ -1,5 +1,3 @@
-package builder;
-
 public interface Builder {
     void setNome(String nome);
     void setTipo(TipoPersonagem tipo);

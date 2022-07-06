@@ -1,5 +1,3 @@
-package builder;
-
 public abstract class Personagem {
     private String nome;
     private TipoPersonagem tipo;

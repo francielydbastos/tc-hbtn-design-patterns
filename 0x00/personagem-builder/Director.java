@@ -1,5 +1,3 @@
-package builder;
-
 public class Director {
 
     public void buildGuerreiro(Builder builder) {

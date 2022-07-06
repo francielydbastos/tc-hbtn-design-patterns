@@ -1,5 +1,3 @@
-package builder;
-
 public class LadraoBuilder implements Builder {
     private String nome;
     private TipoPersonagem tipo;
