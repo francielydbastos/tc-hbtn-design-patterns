@@ -48,7 +48,7 @@ public abstract class Personagem {
         return "Personagem { " +
                 "nome = " + nome + ", tipo = " + tipo +
                 ", inteligencia = " + inteligencia +
-                ", forca=" + forca + ", vigor = " + vigor +
+                ", forca = " + forca + ", vigor = " + vigor +
                 ", resistencia = " + resistencia + ", destreza = " + destreza +
                 ", dano ataque = " + String.format("%.2f", getDanoAtaque()) +
                 " } ";
