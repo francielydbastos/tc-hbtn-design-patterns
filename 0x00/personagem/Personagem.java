@@ -50,7 +50,7 @@ public abstract class Personagem {
                 ", inteligencia = " + inteligencia +
                 ", forca=" + forca + ", vigor = " + vigor +
                 ", resistencia = " + resistencia + ", destreza = " + destreza +
-                ", resistencia = " + String.format("%.2f", getDanoAtaque()) +
+                ", dano ataque = " + String.format("%.2f", getDanoAtaque()) +
                 " } ";
     }
 }
