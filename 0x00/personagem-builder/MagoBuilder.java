@@ -33,8 +33,8 @@ public class MagoBuilder implements Builder {
     }
 
     @Override
-    public void setResistencia(int destreza) {
-        this.destreza = destreza;
+    public void setResistencia(int resistencia) {
+        this.resistencia = resistencia;
     }
 
     @Override
