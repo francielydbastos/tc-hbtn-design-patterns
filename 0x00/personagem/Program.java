@@ -1,5 +1,10 @@
+import java.util.Locale;
+
 public class Program {
     public static void main(String[] args) {
+
+        Locale.setDefault(Locale.GERMANY);
+
         PersonagemFactory terraMediaPersonagemFactory = new WesterosPersonagemFactory();
         PersonagemFactory westerosPersonagemFactory = new TerraMediaPersonagemFactory();
 
