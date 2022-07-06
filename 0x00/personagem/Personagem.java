@@ -45,7 +45,7 @@ public abstract class Personagem {
 
     @Override
     public String toString() {
-        return "personagem.Personagem { " +
+        return "Personagem { " +
                 "nome = " + nome + ", tipo = " + tipo +
                 ", inteligencia = " + inteligencia +
                 ", forca=" + forca + ", vigor = " + vigor +
