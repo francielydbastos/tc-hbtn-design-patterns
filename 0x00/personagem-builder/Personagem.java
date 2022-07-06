@@ -51,6 +51,6 @@ public abstract class Personagem {
                 ", forca = " + forca + ", vigor = " + vigor +
                 ", resistencia = " + resistencia + ", destreza = " + destreza +
                 ", dano ataque = " + String.format("%.2f", getDanoAtaque()) +
-                " } ";
+                " }";
     }
 }
