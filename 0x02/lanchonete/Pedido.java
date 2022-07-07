@@ -14,16 +14,16 @@ public class Pedido {
 
     @Override
     public String toString() {
-        String pedidoString = "Fora da caixa: \n";
+        String pedidoString = "        Fora da caixa: \n";
 
         for (ItemPedido item : this.itensForaCaixa) {
-            pedidoString = pedidoString.concat(" - " + item.getTipo() + " " + item.getNome() + "\n");
+            pedidoString = pedidoString.concat("                - " + item.getTipo() + " " + item.getNome() + "\n");
         }
 
-        pedidoString = pedidoString.concat("Dentro da caixa: \n");
+        pedidoString = pedidoString.concat("        Dentro da caixa: \n");
 
         for (ItemPedido item : this.itensDentroCaixa) {
-            pedidoString = pedidoString.concat(" - " + item.getTipo() + " " + item.getNome() + "\n");
+            pedidoString = pedidoString.concat("                - " + item.getTipo() + " " + item.getNome() + "\n");
         }
 
         return pedidoString;
