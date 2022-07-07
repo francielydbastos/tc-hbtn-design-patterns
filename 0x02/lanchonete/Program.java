@@ -18,6 +18,6 @@ public class Program {
 
         Pedido pedido2 = builder2.build();
 
-        System.out.print(pedido2);
+        System.out.println(pedido2);
     }
 }
